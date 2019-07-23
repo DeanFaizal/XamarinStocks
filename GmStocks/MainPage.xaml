@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    mc:Ignorable="d"
+    x:Class="GmStocks.MainPage"
+    ios:Page.UseSafeArea="True">
+    <Grid Padding="20"
+          ColumnSpacing="8"
+          RowSpacing="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Entry Text="{Binding SymbolToAdd, Mode=TwoWay}"/>
+        <Picker Grid.Column="1"
+                ItemsSource="{Binding Intervals}"
+                SelectedIndex="{Binding IntradayIntervalIndex}" />
+        <Button Grid.Column="2"
+                Text="Add"
+                Command="{Binding AddStock}" />
+        <ListView Grid.Row="1"
+                  Grid.ColumnSpan="3"
+                  ItemsSource="{Binding Stocks}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Label Text="{Binding Symbol}" />
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

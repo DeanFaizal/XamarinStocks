@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{7DB5ADA0-641F-4D2C-AA6A-748A7DA21BF5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GmStocks/MainPage.xaml">
+    <Files>
+      <File FileName="GmStocks/MainPage.xaml.cs" Line="20" Column="44" />
+      <File FileName="GmStocks/MainPage.xaml" Line="28" Column="27" />
+      <File FileName="GmStocks/ViewModels/ViewModelBase.cs" Line="9" Column="21" />
+      <File FileName="GmStocks/StockMarketService.cs" Line="43" Column="18" />
+      <File FileName="GmStocks/Models/StockTimeSeries.cs" Line="16" Column="1" />
+      <File FileName="GmStocks/Models/IntradayIntervals.cs" Line="9" Column="16" />
+      <File FileName="GmStocks/Extensions/IntradayIntervalExtensions.cs" Line="8" Column="30" />
+      <File FileName="GmStocks/ViewModels/MainPageViewModel.cs" Line="71" Column="48" NotebookId="1" />
+      <File FileName="GmStocks/Models/Stock.cs" Line="21" Column="45" NotebookId="1" />
+      <File FileName="GmStocks/Models/StockMetadata.cs" Line="6" Column="18" NotebookId="1" />
+      <File FileName="GmStocks.iOS/Main.cs" Line="17" Column="1" NotebookId="1" />
+      <File FileName="GmStocks.iOS/Main.cs" Line="17" Column="1" NotebookId="1" />
+      <File FileName="GmStocks/ViewModels/StockVM.cs" Line="43" Column="44" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GmStocks" expanded="True">
+            <Node name="GmStocks" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Extensions" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="GmStocks.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GmStocks.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.931529C9-A728-45FB-B4E2-9C018BEA3C4B" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GmStocks.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Pie" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
