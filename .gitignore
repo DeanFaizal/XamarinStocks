@@ -1,0 +1,14 @@
+
+\.vs/
+
+GmStocks/obj/
+
+GmStocks\.Android/obj/
+
+GmStocks\.iOS/obj/
+
+GmStocks/bin/
+
+GmStocks\.iOS/bin/
+
+GmStocks\.Android/bin/
